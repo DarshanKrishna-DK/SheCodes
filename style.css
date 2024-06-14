@@ -102,6 +102,29 @@ footer {
     padding: 10px 0;
 }
 
+#cricket-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+#badminton-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+#basketball-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
 /*.login {
 
 }*/
+
+#ar-vr {
+    margin-top: 5%;
+}
