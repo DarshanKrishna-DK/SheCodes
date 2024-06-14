@@ -13,7 +13,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 header {
@@ -91,5 +91,5 @@ footer {
 }
 
 .login {
-    
+
 }
