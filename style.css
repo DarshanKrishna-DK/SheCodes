@@ -1,0 +1,26 @@
+* {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+}
+
+#main{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game1{
+    background-color: red;
+}
+
+.game2{
+    background-color: blue;
+}
+
+.game3{
+    background-color: green;
+}
