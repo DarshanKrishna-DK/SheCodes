@@ -4,6 +4,79 @@
     box-sizing: border-box;
 }
 
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -23,7 +96,7 @@ header {
     padding: 20px 0;
 }
 
-header .logo {
+header.logo {
     float: left;
 }
 
@@ -73,7 +146,7 @@ header ul li a {
 }
 
 .btn {
-    background: midnightblue;
+    background: #2F82A9;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -121,10 +194,20 @@ footer {
     width: 200px;
     border-radius: 10px;
 }
-/*.login {
+#login {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
 
-}*/
+#signup {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
 
 #ar-vr {
     margin-top: 5%;
 }
+
+#icon{}
