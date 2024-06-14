@@ -11,11 +11,11 @@ body {
 }
 
 .container {
-    width: 80%;
-    flex: left;
-    margin: 0 auto;
-    padding: 15px;
-}
+    column {
+        float: left;
+        width: 50%;
+        }
+    }
 
 header {
     background: #333;
@@ -45,35 +45,24 @@ header ul li a {
     text-decoration: none;
 }
 
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: #fff;
     text-align: center;
+    padding: 150px 0;
 }
 
-.sport {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin: 10px 0;
+.hero h2 {
+    margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .sport {
-        width: 30%;
-    }
+.hero p {
+    margin-bottom: 20px;
 }
 
 .btn {
-    background: midnightblue;
+    background: #f00;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -103,5 +92,5 @@ footer {
 }
 
 .login {
-
+    
 }
