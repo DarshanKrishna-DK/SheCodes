@@ -91,7 +91,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #123140;
     color: #fff;
     padding: 20px 0;
 }
@@ -169,7 +169,7 @@ section h2 {
 }
 
 footer {
-    background: #333;
+    background: #123140;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -195,13 +195,13 @@ footer {
     border-radius: 10px;
 }
 #login {
-    background-color: lightblue;
+    background-color: #48a1cb;
     border-radius: 10px;
     padding: 10px;
 }
 
 #signup {
-    background-color: lightblue;
+    background-color: #48a1cb;
     border-radius: 10px;
     padding: 10px;
 }
