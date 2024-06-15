@@ -80,7 +80,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: azure;;
+    /* background-color: azure; */
+    background-image: url(/assets/background.jpg);
 }
 
 .container {
@@ -161,7 +162,7 @@ header ul li a {
 
 section {
     padding: 20px 0;
-    background: azure;
+    /* background: azure; */
     margin-bottom: 20px;
 }
 
