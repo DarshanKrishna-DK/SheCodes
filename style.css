@@ -80,7 +80,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: azure;;
 }
 
 .container {
@@ -120,7 +120,7 @@ header ul li {
 }
 
 header ul li a {
-    color: #fff;
+    color: azure;;
     text-decoration: none;
 }
 
@@ -153,7 +153,7 @@ header ul li a {
 
 .btn {
     background: #2F82A9;
-    color: #fff;
+    color: azure;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -161,7 +161,7 @@ header ul li a {
 
 section {
     padding: 20px 0;
-    background: #fff;
+    background: azure;
     margin-bottom: 20px;
 }
 
@@ -176,7 +176,7 @@ section h2 {
 
 footer {
     background: #123140;
-    color: #fff;
+    color: azure;
     text-align: center;
     padding: 10px 0;
 }
@@ -204,12 +204,14 @@ footer {
     background-color: #48a1cb;
     border-radius: 10px;
     padding: 10px;
+    color: azure;
 }
 
 #signup {
     background-color: #48a1cb;
     border-radius: 10px;
     padding: 10px;
+    color: azure;
 }
 
 #ar-vr {
