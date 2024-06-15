@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --bg-color: #050a13;
+  --second-bg-color: #0d1f2d;
+  --text-color: #fff;
+  --main-color: #00eeff;
+}
+
+body{
+  background-image: url(/assets/background.jpg);
+  color: var(--text-color);
+}
+
+section{
+  min-height: 100vh;
+  padding: 100px 150px;
+}
+
+.btn{
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  letter-spacing: 2px;
+  background: transparent;
+  color: var(--text-color);
+  box-shadow: 0 0 .5rem white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  box-shadow: 0 0 .8rem var(--main-color);
+}
+
+a{
+  color: var(--text-color);
+}
+
+h2{
+  letter-spacing: .2rem;
+}
+
+/* ------ NavBar Style ------ */
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px 20px 80px;
+    background: var(--bg-color);
+}
+
+header .navigation{
+    display: flex;
+    margin-left: -50px;
+}
+
+header .navigation a{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+/* 
+header .navigation a:before{
+    content: "";
+    position: absolute;
+    background: var(--main-color);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease;
+}
+  
+header .navigation a:hover:before{
+    width: 100%;
+} */
+
+/* -------- Home Page ---------*/
+
+.home{
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 50%;
+    border-radius: 20px;
+    margin: 70px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px var(--text-color);
+    position: relative;
+  }
+
+.content h1{
+    font-size: 4rem;
+    padding: 20px 60px 0px ;
+}
+
+.content #bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--text-color);
+    opacity: .05;
+    z-index: 2;
+}
+
+.content p{
+    font-size: 1.2rem;
+    padding: 10px 20px 20px;
+}
+
+.content .btn{
+    margin:  20px 40px;
+}
+
+.content a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px 10px;
+}
+
+.home-img{
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+.home-img img{
+    height: 320px;
+    width: 320px;
+    border-radius: 20px;
+    border: 5px solid var(--text-color);
+}
