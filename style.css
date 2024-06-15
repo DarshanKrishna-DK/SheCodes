@@ -87,17 +87,23 @@ body {
     width: 80%;
     flex: left;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 20px;
+    display: flex;
+    background: none;
 }
 
 header {
     background: #123140;
     color: #fff;
-    padding: 20px 0;
+    /* padding: 0px 20px; */
 }
 
 header.logo {
     float: left;
+}
+
+.logo-img img{
+    width: 10rem;
 }
 
 header nav {
@@ -212,7 +218,9 @@ footer {
 
 #icon{}
 #hero {
-    height: 26em;
+    /* height: 26em; */
+    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .desc {
@@ -221,5 +229,7 @@ footer {
 }
 
 @media (max-width: 767px) {
-    
+    #hero{
+        height: 100%;
+    }
 }
