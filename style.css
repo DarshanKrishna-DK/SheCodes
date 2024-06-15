@@ -234,3 +234,19 @@ footer {
 .headings {
     font-style: italic;
 }
+
+#scrollUpBtn {
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+/* Button hover effect */
+#scrollUpBtn:hover {
+    opacity: 0.5
+}
+
+/* Content styling */
+#hero {
+    height: 2000px; /* To make the page scrollable */
+    padding: 20px;
+}
